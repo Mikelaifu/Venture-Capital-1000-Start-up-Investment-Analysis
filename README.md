@@ -27,7 +27,7 @@ Conditions: Created dynamic sets of top companies of next 3 criteria with powefl
 
 Dashboard Link: https://public.tableau.com/profile/xiaoyang.wu#!/vizhome/StartupTopGrowthAnalysis/TopGrowthAnalysis?publish=yes
 
-![Dashboard1](Tableau Dashboards IMG/Dashboard1.png)
+![Dashboard1](Image/Dashboard1.png)
 
 
 #### Selected Potential Companies for Investment Dashboard
@@ -38,7 +38,7 @@ Dashboard Link: https://public.tableau.com/profile/xiaoyang.wu#!/vizhome/Startup
 
 Dashboard Link: https://public.tableau.com/profile/xiaoyang.wu#!/vizhome/SelectedStartupforVentureCapitalInvestingAnalysis/SelectedPotentialCompaniesforInvestment?publish=yes
 
-![Dashboard2](Tableau Dashboards IMG/Dashboard2.png)
+![Dashboard2](Image/Dashboard2.png)
 
 
 #### Top Profitable Companies to Invest Dashboard
@@ -49,4 +49,4 @@ Dashboard Link: https://public.tableau.com/profile/xiaoyang.wu#!/vizhome/Selecte
 
 Dashboard Link: https://public.tableau.com/profile/xiaoyang.wu#!/vizhome/TopNMostProfitableStartupforInvestingAnalysis/TopProfitableCompaniestoInvest?publish=yes
 
-![Dashboard3](Tableau Dashboards IMG/Dashboard3.png)
+![Dashboard3](Image/Dashboard3.png)
