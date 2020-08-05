@@ -50,3 +50,14 @@ Dashboard Link: https://public.tableau.com/profile/xiaoyang.wu#!/vizhome/Selecte
 Dashboard Link: https://public.tableau.com/profile/xiaoyang.wu#!/vizhome/TopNMostProfitableStartupforInvestingAnalysis/TopProfitableCompaniestoInvest?publish=yes
 
 ![Dashboard3](Image/Dashboard3.png)
+
+
+### Building a profit prediction model (Selected companies)
+
+According to the potential selected companies tp build a multple lieanr regression model:
+
+* Y = "2109 Profit"
+* X = '2019 Revenue', '2019 Growth %', 'Employees', 'Company Founded Longevity', 'Admin Spend (2019)', 'Marketing & Sales Spend (2019)',  'R&D Spend (2019)', 
+
+
+*** Y (2019 Profit) = 1 * X1 (2019 Reveneu) + 0.0014147 * X2 (2019 Growth) - 2.55003695e-06 * X3 (Number of Employee) -2.83187758e-06 * X4(Company Founded Lengevity) -0.9999 * X5 (Admin Spend (2019)) -1 * X6(Marketing & Sales Spend (2019)) -1 * X7 (R&D Spend (2019)) -0.013577 ***
