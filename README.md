@@ -61,3 +61,15 @@ According to the potential selected companies tp build a multple lieanr regressi
 
 *** equation ***
 * Y (2019 Profit) = 1 * X1 (2019 Reveneu) + 0.0014147 * X2 (2019 Growth) - 2.55003695e-06 * X3 (Number of Employee) -2.83187758e-06 * X4(Company Founded Lengevity) -0.9999 * X5 (Admin Spend (2019)) -1 * X6(Marketing & Sales Spend (2019)) -1 * X7 (R&D Spend (2019)) -0.013577 
+
+
+
+### Building a Investment Decision Model (based on selected companies)
+
+According to the potential selected companies tp build a multple lieanr regression model:
+
+* Y = 1 or 0 (1 as selected starups as consideration of investment, 0 as non-selected starups)
+* X = 'Employees', 'Company Founded Longevity', 'Total Growth in 3 years' ,'Avg Profit (2017-2019)',   'Avg Expenses (2017-2019)', 'Avg Revenue (2017-2019)'
+
+*** equation ***
+the Logsitic Sigmoid Function: Log_Odd(P) = -6.29423268 + 0.191379(#ofEmployees)X_1 -0.11357923(CompanyFoundedLongevity)X_2 + -0.11357923('Total Growth')X_2 + -0.11357923(Avg Profit (2017-2019))X_2 + -0.11357923(Avg Expenses (2017-2019))X_2 + -0.11357923(Avg Revenue (2017-2019))X_2 
