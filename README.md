@@ -72,4 +72,4 @@ According to the potential selected companies tp build a multple lieanr regressi
 * X = 'Employees', 'Company Founded Longevity', 'Total Growth in 3 years' ,'Avg Profit (2017-2019)',   'Avg Expenses (2017-2019)', 'Avg Revenue (2017-2019)'
 
 *** equation ***
-the Logsitic Sigmoid Function: Log_Odd(P) = -6.29423268 + 0.191379(#ofEmployees)X_1 -0.11357923(CompanyFoundedLongevity)X_2 + -0.11357923('Total Growth')X_2 + -0.11357923(Avg Profit (2017-2019))X_2 + -0.11357923(Avg Expenses (2017-2019))X_2 + -0.11357923(Avg Revenue (2017-2019))X_2 
+* the Logsitic Sigmoid Function: Log_Odd(P) = -6.29423268 + 0.191379(#ofEmployees)X_1 -0.11357923(CompanyFoundedLongevity)X_2 + -0.11357923('Total Growth')X_2 + -0.11357923(Avg Profit (2017-2019))X_2 + -0.11357923(Avg Expenses (2017-2019))X_2 + -0.11357923(Avg Revenue (2017-2019))X_2 
