@@ -54,7 +54,7 @@ Dashboard Link: https://public.tableau.com/profile/xiaoyang.wu#!/vizhome/TopNMos
 
 ### Building a profit prediction model (Selected companies)
 
-According to the potential selected companies tp build a multple lieanr regression model:
+According to the potential selected companies to build a multple lieanr regression model:
 
 * Y = "2109 Profit"
 * X = '2019 Revenue', '2019 Growth %', 'Employees', 'Company Founded Longevity', 'Admin Spend (2019)', 'Marketing & Sales Spend (2019)',  'R&D Spend (2019)', 
@@ -66,10 +66,26 @@ According to the potential selected companies tp build a multple lieanr regressi
 
 ### Building a Investment Decision Model (based on selected companies)
 
-According to the potential selected companies tp build a multple lieanr regression model:
+According to the potential selected companies to build a classification model to help invester to make investment decisions:
 
 * Y = 1 or 0 (1 as selected starups as consideration of investment, 0 as non-selected starups)
 * X = 'Employees', 'Company Founded Longevity', 'Total Growth in 3 years' ,'Avg Profit (2017-2019)',   'Avg Expenses (2017-2019)', 'Avg Revenue (2017-2019)'
 
-*** equation ***
+##### Logistic Regression Model
 * the Logsitic Sigmoid Function: Log_Odd(P) = -6.29423268 + 0.191379(#ofEmployees)X_1 -0.11357923(CompanyFoundedLongevity)X_2 + -0.11357923('Total Growth')X_2 + -0.11357923(Avg Profit (2017-2019))X_2 + -0.11357923(Avg Expenses (2017-2019))X_2 + -0.11357923(Avg Revenue (2017-2019))X_2 
+
+Model Accuracy Rate: 0.9239
+Logistic Regression Cross validation Accuracy: 94.7212 %
+Standerd Deviation: 2.20 %
+
+##### Support Vector Machine Model
+
+Model Accuracy Rate: 0.9457
+SVM Model Cross-Validating Accuracy: 96.5865 %
+Standerd Deviation: 1.52 %
+
+##### K-NN Model
+
+Model Accuracy Rate: 0.942
+KNN Model Cross-Validating Accuracy: 95.9663 %
+Standerd Deviation: 2.11 %
