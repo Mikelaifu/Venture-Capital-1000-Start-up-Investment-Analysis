@@ -89,3 +89,14 @@ Standerd Deviation: 1.52 %
 Model Accuracy Rate: 0.942
 KNN Model Cross-Validating Accuracy: 95.9663 %
 Standerd Deviation: 2.11 %
+
+##### Naive Bayes Model
+
+Model Accuracy Rate: 0.9239
+Naive Bayes Model Cross-Validating Accuracy: 94.5529 %
+Standerd Deviation: 2.72 %
+
+
+------------------ Conclusion: ----------------------
+
+## Support Vector Machine Model is winning so far!!!!
